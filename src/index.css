@@ -224,6 +224,11 @@ picture img{
     grid-column-end: 4;
   }
 
+  .NavBar li:hover{
+    cursor: pointer;
+    color: var(--Soft-red);
+  }
+
   .hero{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -256,9 +261,19 @@ picture img{
     width: 70%;
   }
 
+  .hero-content-detail button:hover{
+    cursor: pointer;
+    background-color: var(--Very-dark-blue);
+  }
+
   .newSec{
     grid-column-start: 3;
     grid-column-end: 4;
+  }
+  
+  .newSec h3:hover{
+    cursor: pointer;
+    color: var(--Soft-orange);
   }
 
   .trendingSec{
@@ -266,6 +281,11 @@ picture img{
     grid-column-end: 4;
     flex-direction: row;
     column-gap: 1.5rem;
+  }
+
+  .trendingSec h3:hover{
+    cursor: pointer;
+    color: var(--Soft-red);
   }
 
   .NavBar .show{
