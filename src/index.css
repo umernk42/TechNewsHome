@@ -229,6 +229,32 @@ picture img{
     color: var(--Soft-red);
   }
 
+  .NavBar .show{
+    display: flex;
+    position: static;
+    height: auto;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .NavBar nav{
+    display: block;
+    
+  }
+
+  .NavBar nav div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .NavBar nav ul{
+    flex-direction: row;
+    column-gap: 1.3rem;
+    color: var(--Dark-grayish-blue);
+  }
+
   .hero{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -288,29 +314,19 @@ picture img{
     color: var(--Soft-red);
   }
 
-  .NavBar .show{
-    display: flex;
-    position: static;
-    height: auto;
-    width: 100%;
-    background-color: white;
+
+  .trendingSecItem picture{
+    width: 150px;
+    height: 250px;
+    overflow:visible;
   }
   
-  .NavBar nav{
-    display: block;
-    
+  .trendingSecItem picture img{
+    width: 150px;
+    height: 250px;
+    object-fit: none;
   }
+  
 
-  .NavBar nav div{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: flex-end;
-  }
 
-  .NavBar nav ul{
-    flex-direction: row;
-    column-gap: 1.3rem;
-    color: var(--Dark-grayish-blue);
-  }
 }
